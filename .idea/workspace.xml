@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cede61ee-c103-457d-b8fb-f54d96c83253" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/viettel/dslab/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ntheanh201/uw/Main.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +55,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.ntheanh201.uw.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.viettel.dslab.Main" />
       <module name="spark-poc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.viettel.dslab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.ntheanh201.uw.Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.ntheanh201.uw.Main" />
+      <module name="spark-poc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ntheanh201.uw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.ntheanh201.uw.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -96,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1692176648913</updated>
       <workItem from="1692176650149" duration="498000" />
-      <workItem from="1692177156553" duration="162000" />
+      <workItem from="1692177156553" duration="280000" />
     </task>
     <servers />
   </component>
