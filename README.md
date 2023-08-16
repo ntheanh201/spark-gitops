@@ -4,14 +4,15 @@
 
 ```shell
 ./bin/spark-submit \
-  --master k8s://https://13.214.156.23:6443 \
+  --master k8s://https://spark-server:spark-api-server-port \
   --deploy-mode cluster \
   --name spark-pi \
-  --conf spark.kubernetes.driverEnv.SPARK_MASTER_URL=spark://13.214.156.23:30086 \
+  --conf spark.kubernetes.driverEnv.SPARK_MASTER_URL=spark://spark-master-svc:spark-master-port \
   --driver-memory 1g \
   --executor-memory 1g \
-  --executor-cores 1  \
-  --py-files /home/vtn-anhnt645/Downloads/ntheanh201/uw/spark-gitops/python/pi.py
+  --executor-cores 1 \
+  --class com.ntheanh201.uw.Main \
+  ./target/spark-poc-0.0.1.jar
 ```
 
 ## GitOps
